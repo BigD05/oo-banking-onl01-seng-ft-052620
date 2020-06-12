@@ -7,6 +7,8 @@ attr_accessor :sender, :receiver, :amount, :status
     @amount = amount
     @status = "pending"
   end
+  def valid?
+    @sender.valid? && @receiver.valid? ? true : false
 
 
 end
