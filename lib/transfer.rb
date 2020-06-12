@@ -1,12 +1,12 @@
 class Transfer
-attr_accessor  :reciver, :status 
-attr_reader :sender
-def initialize(sender)
-@sender = sender 
-@reciver= reciver 
-@status = "pending"
+aattr_accessor :sender, :receiver, :amount, :status
 
-end 
-  
-  
+  def initialize(sender, receiver, amount)
+    @sender = sender
+    @receiver = receiver
+    @amount = amount
+    @status = "pending"
+  end
+
+
 end
