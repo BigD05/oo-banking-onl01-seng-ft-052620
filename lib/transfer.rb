@@ -27,3 +27,4 @@ attr_accessor :sender, :receiver, :amount, :status
     end
   end
 end
+end 
