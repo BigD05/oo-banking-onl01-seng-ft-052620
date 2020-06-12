@@ -26,7 +26,6 @@ attr_accessor :sender, :receiver, :amount, :status
       @receiver.balance -= @amount
       @status = "reversed"
     end
-  end
 end
 
 end
